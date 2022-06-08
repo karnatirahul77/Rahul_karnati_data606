@@ -24,33 +24,33 @@ This allows us to have a better understanding of people's present mindsets and m
 
 **Dataset description:**
 
-CitationNo: citation number of a given case		
-LienCode:		
-ViolationDate: date on which the violation took place		
-DueDate: due date on which the amount is to be paid		
-Agency: department in which the violation took place.		
-FineAmount: fine amount to be paid		
-Description: description of the violation		
-Balance:balance amount to be paid		
-LastPaidDate: last date of fine paid for violation.		
-LastPaidAmount: the last paid fine amount		
-HearingDate: date on which court hears the case.		
-HearingRequestReceivedDate: date on which hearing request is received		
-CitationStatus: shows the status of the citation		
-ViolationCodeArticle: code article		
-ViolationCodeSection: code section		
-ViolationLocation:violation location			
-OfficerID: the id of the officer		
-OfficerPresenceRequested: if the presence of the officer is required.		
-HearingStatus: status of the hearing.		
-HearTime: hearing time		
-TotalPaid: total amount paid for violations		
-TotalAbated: total amount being abated		
-TotalVoided: total amount being voided		
-Neighborhood: neighborhood area		
-PoliceDistrict: police district of the violation		
-CouncilDistrict: council district of the violation		
-Location:location in which the violation took place.
+[CitationNo]: citation number of a given case		
+ <br /> [LienCode]:		gives lien code for the case
+ <br /> [ViolationDate]: date on which the violation took place		
+ <br /> [DueDate]: due date on which the amount is to be paid		
+ <br /> [Agency]: department in which the violation took place.		
+ <br /> [FineAmount]: fine amount to be paid		
+ <br /> [Description]: description of the violation		
+ <br /> [Balance]:balance amount to be paid		
+ <br /> [LastPaidDate]: last date of fine paid for violation.		
+ <br /> [LastPaidAmount]: the last paid fine amount		
+ <br /> [HearingDate]: date on which court hears the case.		
+ <br /> [HearingRequestReceivedDate]: date on which hearing request is received		
+ <br /> [CitationStatus]: shows the status of the citation		
+ <br /> [ViolationCodeArticle]: code article		
+ <br /> [ViolationCodeSection]: code section		
+ <br /> [ViolationLocation]:violation location			
+ <br /> [OfficerID]: the id of the officer		
+ <br /> [OfficerPresenceRequested]: if the presence of the officer is required.		
+ <br /> [HearingStatus]: status of the hearing.		
+ <br /> [HearTime]: hearing time		
+ <br /> [TotalPaid]: total amount paid for violations		
+ <br /> [TotalAbated]: total amount being abated		
+ <br /> [TotalVoided]: total amount being voided		
+ <br /> [Neighborhood]: neighborhood area		
+ <br /> [PoliceDistrict]: police district of the violation		
+ <br /> [CouncilDistrict]: council district of the violation		
+ <br /> [Location]:location in which the violation took place.
 
 **Data source:**
 
