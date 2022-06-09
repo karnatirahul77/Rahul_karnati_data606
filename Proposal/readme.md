@@ -51,6 +51,65 @@ This allows us to have a better understanding of people's present mindsets and m
  <br /> [PoliceDistrict]: police district of the violation		
  <br /> [CouncilDistrict]: council district of the violation		
  <br /> [Location]:location in which the violation took place.
+ Name	Type	Action
+CitationNo
+Text
+LienCode
+Text
+ViolationDate
+Date or Time
+DueDate
+Date or Time
+Agency
+Text
+FineAmount
+Number
+Description
+Text
+Balance
+Number
+LastPaidDate
+Date or Time
+LastPaidAmount
+Number
+HearingDate
+Date or Time
+HearingRequestReceivedDate
+Date or Time
+CitationStatus
+Text
+ViolationCodeArticle
+Text
+ViolationCodeSection
+Text
+ViolationLocation
+Text
+Block
+Text
+Lot
+Text
+OfficerID
+Text
+OfficerPresenceRequested
+Text
+HearingStatus
+Text
+HearTime
+Text
+TotalPaid
+Number
+TotalAbated
+Number
+TotalVoided
+Number
+Neighborhood
+Text
+PoliceDistrict
+Text
+CouncilDistrict
+Text
+Location
+Text
 
 **Data source:**
 
