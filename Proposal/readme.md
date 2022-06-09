@@ -23,7 +23,7 @@ So, for a citation, we're going to see if a hearing status has been issued or no
 This allows us to have a better understanding of people's present mindsets and mistakes, as well as providing an analysis for jurisdiction to facilitate the flow of their work.
 
 **Dataset description:**
-                                                                                    data-type
+                                                                                    
 [CitationNo]: citation number of a given case		                                     <br />    text
  <br /> [LienCode]:		gives lien code for the case                                     <br />  text
  <br /> [ViolationDate]: date on which the violation took place		                     <br />  date 
