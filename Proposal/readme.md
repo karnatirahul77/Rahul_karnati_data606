@@ -26,59 +26,59 @@ This allows us to have a better understanding of people's present mindsets and m
 
 **Dataset description:**
                                                                                     
-**CitationNo**: citation number of a given case, Data Type: Text
+1) **CitationNo**: citation number of a given case, Data Type: Text
 
-**LienCode**:		gives lien code for the case, Data type: date  
+2)**LienCode**:		gives lien code for the case, Data type: date  
 
-**ViolationDate**: date on which the violation took place, Data type:date
+3)**ViolationDate**: date on which the violation took place, Data type:date
 
-**DueDate**: due date on which the amount is to be paid, Data type:date  
+4)**DueDate**: due date on which the amount is to be paid, Data type:date  
 
-**Agency**: department in which the violation took place, Data type: text
+5)**Agency**: department in which the violation took place, Data type: text
 
-**FineAmount**: fine amount to be paid, Data type: number
+6)**FineAmount**: fine amount to be paid, Data type: number
 
-**Description**: description of the violation, Data type: text
+7)**Description**: description of the violation, Data type: text
 
-**Balance**:balance amount to be paid		  , Data type:  number
+8)**Balance**:balance amount to be paid		  , Data type:  number
 
-**LastPaidDate**: last date of fine paid for violation.	, Data type:  date
+9)**LastPaidDate**: last date of fine paid for violation.	, Data type:  date
 
-**LastPaidAmount**: the last paid fine amount		 , Data type:  number   
+10)**LastPaidAmount**: the last paid fine amount		 , Data type:  number   
 
-**HearingDate**: date on which court hears the case.	, Data type:  date
+11)**HearingDate**: date on which court hears the case.	, Data type:  date
 
-**HearingRequestReceivedDate**: date on which hearing request is received	 , Data type: 	date
+12)**HearingRequestReceivedDate**: date on which hearing request is received	 , Data type: 	date
 
-**CitationStatus**: shows the status of the citation		, Data type:  text
+13)**CitationStatus**: shows the status of the citation		, Data type:  text
 
-**ViolationCodeArticle**: code article		  , Data type:  text
+14)**ViolationCodeArticle**: code article		  , Data type:  text
 
-**ViolationCodeSection**: code section		, Data type:  text
+15)**ViolationCodeSection**: code section		, Data type:  text
 
-**ViolationLocation**:violation location	, Data type:   text
+16)**ViolationLocation**:violation location	, Data type:   text
 
-**OfficerID**: the id of the officer		 , Data type:   text
+17)**OfficerID**: the id of the officer		 , Data type:   text
 
-**OfficerPresenceRequested**: if the presence of the officer is required.	, Data type:   text
+18)**OfficerPresenceRequested**: if the presence of the officer is required.	, Data type:   text
 
-**HearingStatus**: status of the hearing.		, Data type:  text
+19)**HearingStatus**: status of the hearing.		, Data type:  text
 
-**HearTime**: hearing time		        , Data type:  text
+20)**HearTime**: hearing time		        , Data type:  text
 
-**TotalPaid**: total amount paid for violations  , Data type:   number
+21)**TotalPaid**: total amount paid for violations  , Data type:   number
 
-**TotalAbated**: total amount being abated	,Data type:   number
+22)**TotalAbated**: total amount being abated	,Data type:   number
 
-**TotalVoided**: total amount being voided, Data type: number
+23)**TotalVoided**: total amount being voided, Data type: number
 
-**Neighborhood**: neighborhood area, Data type: text
+24)**Neighborhood**: neighborhood area, Data type: text
 
-**PoliceDistrict**: police district of the violation, Data type: text
+25)**PoliceDistrict**: police district of the violation, Data type: text
 
-**CouncilDistrict**: council district of the violation, Data type: text
+26)**CouncilDistrict**: council district of the violation, Data type: text
 
-**Location**:location in which the violation took place, Data type: text
+27)**Location**:location in which the violation took place, Data type: text
 
 
 **Data source:**
@@ -90,11 +90,11 @@ Output variable: lien code
 
 **Models which are to be used:**
 
-Decision tree classifier
-Random forest classifier
-Support vector machine
-Grid search random forest
-Logistic regression
+1)Decision tree classifier
+2)Random forest classifier
+3)Support vector machine
+4)Grid search random forest
+5)Logistic regression
 
 **Evaluation metrics to be used:**
 
