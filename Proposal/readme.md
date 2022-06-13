@@ -15,7 +15,9 @@ When there is a violation of the law, the authorities usually settle it by filin
 **Existing problems with environmental violations and citations:**
 
 Environmental restrictions, on the other hand, typically need a large rise in corporate expense. Some firms will refuse to meet the requirements in order to avoid incurring more fees. Businesses will sometimes publicly refuse to comply, preferring to pay governmental penalties rather than the compliance expenses, which sometimes outweigh the fines' overall costs. Other companies, on the other hand, will try and hide their noncompliance by dumping hazardous waste into rivers, streams, seas, or other remote locations rather of paying to have it transported to a chemical treatment plant. Littering, incorrect waste disposal, agricultural use of unlawful pesticides. manipulating lab data relevant to environmental standards; bringing illicit chemicals into the nation; and environmental fraud.
-##Goals of the project##:
+
+
+**Goals of the project**:
 So, for a citation, we're going to see if a hearing status has been issued or not, which means we're attempting to figure out how citation features influence those who have a hearing status and people who don't. 
 ![image](https://user-images.githubusercontent.com/106714178/172522328-9a892a13-e357-49d2-ab64-609432cfb358.png)
 
@@ -24,33 +26,59 @@ This allows us to have a better understanding of people's present mindsets and m
 
 **Dataset description:**
                                                                                     
-[CitationNo]: citation number of a given case		                                     <br />    text
- <br /> [LienCode]:		gives lien code for the case                                     <br />  text
- <br /> [ViolationDate]: date on which the violation took place		                     <br />  date 
- <br /> [DueDate]: due date on which the amount is to be paid		                       <br />  date  
- <br /> [Agency]: department in which the violation took place.		                     <br />  text
- <br /> [FineAmount]: fine amount to be paid		                                        <br />  number
- <br /> [Description]: description of the violation		                                  <br /> text
- <br /> [Balance]:balance amount to be paid		                                          <br /> number
- <br /> [LastPaidDate]: last date of fine paid for violation.		                       <br />  date
- <br /> [LastPaidAmount]: the last paid fine amount		                                 <br />  number   
- <br /> [HearingDate]: date on which court hears the case.		                          <br />  date
- <br /> [HearingRequestReceivedDate]: date on which hearing request is received	      <br /> 	date
- <br /> [CitationStatus]: shows the status of the citation		                          <br />  text
- <br /> [ViolationCodeArticle]: code article		                                       <br />   text
- <br /> [ViolationCodeSection]: code section		                                        <br />  text
- <br /> [ViolationLocation]:violation location			                                     <br />  text
- <br /> [OfficerID]: the id of the officer		                                          <br />  text
- <br /> [OfficerPresenceRequested]: if the presence of the officer is required.		     <br />  text
- <br /> [HearingStatus]: status of the hearing.		                                     <br />  text
- <br /> [HearTime]: hearing time		                                                    <br />  text
- <br /> [TotalPaid]: total amount paid for violations                                 <br />  number
- <br /> [TotalAbated]: total amount being abated		                                    <br />  number
- <br /> [TotalVoided]: total amount being voided		                                    <br />  number
- <br /> [Neighborhood]: neighborhood area		                                            <br /> text
- <br /> [PoliceDistrict]: police district of the violation		                           <br /> text
- <br /> [CouncilDistrict]: council district of the violation		                        <br />  text
- <br /> [Location]:location in which the violation took place.                        <br />  text
+**CitationNo**: citation number of a given case, Data Type: Text
+
+**LienCode**:		gives lien code for the case, Data type: date  
+
+**ViolationDate**: date on which the violation took place, Data type:date
+
+**DueDate**: due date on which the amount is to be paid, Data type:date  
+
+**Agency**: department in which the violation took place, Data type: text
+
+**FineAmount**: fine amount to be paid, Data type: number
+
+**Description**: description of the violation, Data type: text
+
+**Balance**:balance amount to be paid		  , Data type:  number
+
+**LastPaidDate**: last date of fine paid for violation.	, Data type:  date
+
+**LastPaidAmount**: the last paid fine amount		 , Data type:  number   
+
+**HearingDate**: date on which court hears the case.	, Data type:  date
+
+**HearingRequestReceivedDate**: date on which hearing request is received	 , Data type: 	date
+
+**CitationStatus**: shows the status of the citation		, Data type:  text
+
+**ViolationCodeArticle**: code article		  , Data type:  text
+
+**ViolationCodeSection**: code section		, Data type:  text
+
+**ViolationLocation**:violation location	, Data type:   text
+
+**OfficerID**: the id of the officer		 , Data type:   text
+
+**OfficerPresenceRequested**: if the presence of the officer is required.	, Data type:   text
+
+**HearingStatus**: status of the hearing.		, Data type:  text
+
+**HearTime**: hearing time		        , Data type:  text
+
+**TotalPaid**: total amount paid for violations  , Data type:   number
+
+**TotalAbated**: total amount being abated	,Data type:   number
+
+**TotalVoided**: total amount being voided, Data type: number
+
+**Neighborhood**: neighborhood area, Data type: text
+
+**PoliceDistrict**: police district of the violation, Data type: text
+
+**CouncilDistrict**: council district of the violation, Data type: text
+
+**Location**:location in which the violation took place, Data type: text
 
 
 **Data source:**
