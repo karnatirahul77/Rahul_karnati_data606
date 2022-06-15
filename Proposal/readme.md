@@ -92,14 +92,14 @@ Output variable: lien code
 **Models which are to be used:**
 
 1)Decision tree classifier
-2)Random forest classifier
-3)Support vector machine
-4)Grid search random forest
-5)Logistic regression
+<br/>2)Random forest classifier
+<br/>3)Support vector machine
+<br/>4)Grid search random forest
+<br/>5)Logistic regression
 
 **Evaluation metrics to be used:**
 
-I am planning to evaluate the metrics such as Accuracy Score, Precision Score, Recall,f1-Score,Confusion Matrix, ROC curve after figuring out the metric to evaluate the model with the help understanding the domain of data, later I will determine ways to improve the performance of the model.
+I am planning to evaluate the metrics such as<br/> Accuracy Score, <br/>Precision Score, <br/>Recall,<br/>f1-Score,<br/>Confusion Matrix,<br/> ROC curve after figuring out the metric to evaluate the model with the help understanding the domain of data, later I will determine ways to improve the performance of the model.
 
 **Expected results:**
 
