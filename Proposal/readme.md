@@ -7,7 +7,8 @@ This circumstance involves legal violations and the aspects associated with cita
 **Background information:**
 
 As the advancements and improvements in the technological sector, the world is witnessing the never seen progress. So, the environment is also playing a crucial role in impacting the lives of human. So, I believe it's essential to focus on the current environmental citations on various organizations and understand the trend for minimizing the impact of environment on the quality of the individuals.
-##Severity of the issue##:
+
+**Severity of the issue**:
 When there is a violation of the law, the authorities usually settle it by filing charges. Occasionally, persons are accused without having committed any violations, or they reject the charges for an acceptable reason.
 ![image](https://user-images.githubusercontent.com/106714178/172522488-d8bb45b4-8bdd-4ec2-8eae-0266a222d4f0.png)
 
@@ -28,27 +29,27 @@ This allows us to have a better understanding of people's present mindsets and m
                                                                                     
 1) **CitationNo**: citation number of a given case, Data Type: Text
 
-2)**LienCode**:		gives lien code for the case, Data type: date  
+2)**LienCode**:		gives lien code for the case, Data type: numerical
 
-3)**ViolationDate**: date on which the violation took place, Data type:date
+3)**ViolationDate**: date on which the violation took place, Data type:numerical
 
-4)**DueDate**: due date on which the amount is to be paid, Data type:date  
+4)**DueDate**: due date on which the amount is to be paid, Data type:numerical
 
-5)**Agency**: department in which the violation took place, Data type: text
+5)**Agency**: department in which the violation took place, Data type:categorical (health,police,public)
 
-6)**FineAmount**: fine amount to be paid, Data type: number
+6)**FineAmount**: fine amount to be paid, Data type: numerical
 
 7)**Description**: description of the violation, Data type: text
 
-8)**Balance**:balance amount to be paid		  , Data type:  number
+8)**Balance**:balance amount to be paid		  , Data type: numerical
 
-9)**LastPaidDate**: last date of fine paid for violation.	, Data type:  date
+9)**LastPaidDate**: last date of fine paid for violation.	, Data type:numerical
 
-10)**LastPaidAmount**: the last paid fine amount		 , Data type:  number   
+10)**LastPaidAmount**: the last paid fine amount		 , Data type:  numerical 
 
-11)**HearingDate**: date on which court hears the case.	, Data type:  date
+11)**HearingDate**: date on which court hears the case.	, Data type:numerical
 
-12)**HearingRequestReceivedDate**: date on which hearing request is received	 , Data type: 	date
+12)**HearingRequestReceivedDate**: date on which hearing request is received	 , Data type:numerical
 
 13)**CitationStatus**: shows the status of the citation		, Data type:  text
 
@@ -66,17 +67,17 @@ This allows us to have a better understanding of people's present mindsets and m
 
 20)**HearTime**: hearing time		        , Data type:  text
 
-21)**TotalPaid**: total amount paid for violations  , Data type:   number
+21)**TotalPaid**: total amount paid for violations  , Data type:numerical
 
-22)**TotalAbated**: total amount being abated	,Data type:   number
+22)**TotalAbated**: total amount being abated	,Data type:  numerical
 
-23)**TotalVoided**: total amount being voided, Data type: number
+23)**TotalVoided**: total amount being voided, Data type:numerical
 
 24)**Neighborhood**: neighborhood area, Data type: text
 
-25)**PoliceDistrict**: police district of the violation, Data type: text
+25)**PoliceDistrict**: police district of the violation, Data type:categorical (east,west,north,south)
 
-26)**CouncilDistrict**: council district of the violation, Data type: text
+26)**CouncilDistrict**: council district of the violation, Data type:numerical
 
 27)**Location**:location in which the violation took place, Data type: text
 
