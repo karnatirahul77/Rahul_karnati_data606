@@ -19,7 +19,7 @@ Environmental restrictions, on the other hand, typically need a large rise in co
 
 
 **Goals of the project**:
-So, for a citation, we're going to see if a hearing status has been issued or not, which means we're attempting to figure out how citation features influence those who have a hearing status and people who don't. 
+So, for a citation, i going to see if a hearing status has been issued or not, which means i attempting to figure out how citation features influence those who have a hearing status and people who don't. 
 ![image](https://user-images.githubusercontent.com/106714178/172522328-9a892a13-e357-49d2-ab64-609432cfb358.png)
 
  
