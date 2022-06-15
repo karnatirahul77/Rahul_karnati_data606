@@ -86,8 +86,10 @@ This allows us to have a better understanding of people's present mindsets and m
 
 https://data.baltimorecity.gov/datasets/environmental-citations/explore.
 Unit of analysis: Hearing status
-Number of observations to be Analysed: 204161
-Output variable: lien code
+<br/>Number of observations to be Analysed: 204161
+<br/>Output variable: lien code
+
+
 
 **Models which are to be used:**
 
