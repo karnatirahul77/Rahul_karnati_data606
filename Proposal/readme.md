@@ -27,7 +27,7 @@ This allows us to have a better understanding of people's present mindsets and m
 
 **Dataset description:**
                                                                                     
-1) **CitationNo**: citation number of a given case, Data Type: Text
+1) **CitationNo**: citation number of a given case, Data Type:Numerical
 
 2)**LienCode**:		gives lien code for the case, Data type: numerical
 
@@ -39,7 +39,7 @@ This allows us to have a better understanding of people's present mindsets and m
 
 6)**FineAmount**: fine amount to be paid, Data type: numerical
 
-7)**Description**: description of the violation, Data type: text
+7)**Description**: description of the violation, Data type: Numerical
 
 8)**Balance**:balance amount to be paid		  , Data type: numerical
 
@@ -53,19 +53,19 @@ This allows us to have a better understanding of people's present mindsets and m
 
 13)**CitationStatus**: shows the status of the citation		, Data type:  text
 
-14)**ViolationCodeArticle**: code article		  , Data type:  text
+14)**ViolationCodeArticle**: code article		  , Data type: Numerical
 
-15)**ViolationCodeSection**: code section		, Data type:  text
+15)**ViolationCodeSection**: code section		, Data type:  Numerical
 
-16)**ViolationLocation**:violation location	, Data type:   text
+16)**ViolationLocation**:violation location	, Data type: categorical(east,west,north,south)
 
-17)**OfficerID**: the id of the officer		 , Data type:   text
+17)**OfficerID**: the id of the officer		 , Data type: Numerical
 
-18)**OfficerPresenceRequested**: if the presence of the officer is required.	, Data type:   text
+18)**OfficerPresenceRequested**: if the presence of the officer is required.	, Data type:categorical(yes,no)
 
-19)**HearingStatus**: status of the hearing.		, Data type:  text
+19)**HearingStatus**: status of the hearing.		, Data type: categorical(yes,no,not issued)
 
-20)**HearTime**: hearing time		        , Data type:  text
+20)**HearTime**: hearing time		        , Data type: Numerical
 
 21)**TotalPaid**: total amount paid for violations  , Data type:numerical
 
@@ -73,13 +73,13 @@ This allows us to have a better understanding of people's present mindsets and m
 
 23)**TotalVoided**: total amount being voided, Data type:numerical
 
-24)**Neighborhood**: neighborhood area, Data type: text
+24)**Neighborhood**: neighborhood area, Data type:categorical(east,west,north,south)
 
 25)**PoliceDistrict**: police district of the violation, Data type:categorical (east,west,north,south)
 
 26)**CouncilDistrict**: council district of the violation, Data type:numerical
 
-27)**Location**:location in which the violation took place, Data type: text
+27)**Location**:location in which the violation took place, Data type:categorical(east,west,north,south)
 
 
 **Data source:**
